@@ -1,17 +1,19 @@
 about:
-  description: A terminal UI for tshark, inspired by Wireshark
+  description:
+  |
+    A terminal UI for tshark, inspired by Wireshark
   license: MIT
   homepage: 
   head: e8a1ec6
   archived: false
   latestVersion: v2.4.0
-  collectedAt: 2026-09-03T05:12:55Z
+  collectedAt: 2026-09-03T22:36:57Z
 timeline:
   created: 2019-04-20
   lastCommit: 2022-11-01
   lastRelease: 2022-07-11
 popularity:
-  star: 9988
+  star: 9989
   watcher: 120
   fork: 439
   release: 7
@@ -21,7 +23,7 @@ popularity:
 language:
   Go: 1224793
   Shell: 4666
-totalLine: 1229459
+totalBytes: 1229459
 recent:
   last30d:
     since: 2026-08-04
