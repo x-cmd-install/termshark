@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.4.0"
   latestRelease: "v2.4.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:50:09Z
+  collectedAt: 2026-09-10T17:46:01Z
 timeline:
   created: 2019-04-20
   lastCommit: 2022-11-01
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2022-07-11
   lastPrerelease: 
 popularity:
-  star: 10007
+  star: 10010
   watcher: 121
   fork: 438
   release: 7
@@ -84,7 +84,7 @@ total:
   commit: 955
 ---
 path: /home/runner/.x-repo/github.com/gcla/termshark
-collectedAt: 2026-09-10T05:50:10Z
+collectedAt: 2026-09-10T17:46:04Z
 loc:
   Go:
     code: 31967
