@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 901,
       "digest": null,
-      "download_count": 1121,
+      "download_count": 1126,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:28Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/checksums.txt"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 566,
       "digest": null,
-      "download_count": 97,
+      "download_count": 98,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:28Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/checksums.txt.sig"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 6142560,
       "digest": null,
-      "download_count": 201,
+      "download_count": 202,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:34Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/termshark_2.4.0_freebsd_x64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 5665103,
       "digest": null,
-      "download_count": 4548,
+      "download_count": 4557,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:33Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/termshark_2.4.0_linux_arm64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 5822493,
       "digest": null,
-      "download_count": 213,
+      "download_count": 214,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:33Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/termshark_2.4.0_linux_armv6.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 6144299,
       "digest": null,
-      "download_count": 43369,
+      "download_count": 43542,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:34Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/termshark_2.4.0_linux_x64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 6157784,
       "digest": null,
-      "download_count": 2431,
+      "download_count": 2435,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:34Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/termshark_2.4.0_macOS_arm64.tar.gz"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 6374380,
       "digest": null,
-      "download_count": 233,
+      "download_count": 234,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:34Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/termshark_2.4.0_macOS_x64.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 6130929,
       "digest": null,
-      "download_count": 86,
+      "download_count": 88,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:34Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/termshark_2.4.0_netbsd_x64.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 6140969,
       "digest": null,
-      "download_count": 100,
+      "download_count": 101,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:34Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/termshark_2.4.0_openbsd_x64.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 6078816,
       "digest": null,
-      "download_count": 3676,
+      "download_count": 3685,
       "created_at": "2022-07-11T22:25:27Z",
       "updated_at": "2022-07-11T22:25:33Z",
       "browser_download_url": "https://github.com/gcla/termshark/releases/download/v2.4.0/termshark_2.4.0_windows_x64.zip"
