@@ -1,28 +1,34 @@
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: nix_stable_24_11
   srcname: termshark
-  binnames:
-    - termshark
   visiblename: termshark
   version: 2.4.0
-  origversion: 2.4.0-5
+  origversion: null
   status: newest
+  summary: Terminal UI for wireshark-cli, inspired by Wireshark
   maintainers:
-    - team+pkg-go@tracker.debian.org
-    - dawidd0811@gmail.com
-  categories:
-    - misc
-- repo: alpine_3_19
-  subrepo: community
+    - patrickwinter@posteo.ch
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
   srcname: termshark
-  binname: termshark
   visiblename: termshark
   version: 2.4.0
-  origversion: 2.4.0-r17
+  origversion: null
   status: newest
-  summary: terminal UI for tshark, inspired by Wireshark
+  summary: Terminal UI for wireshark-cli, inspired by Wireshark
   maintainers:
-    - alpine@ptrcnull.me
+    - patrickwinter@posteo.ch
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: termshark
+  visiblename: termshark
+  version: 2.4.0
+  origversion: null
+  status: newest
+  summary: Terminal UI for wireshark-cli, inspired by Wireshark
+  maintainers:
+    - patrickwinter@posteo.ch
   licenses:
     - MIT
 - repo: alpine_3_17
@@ -45,6 +51,19 @@
   visiblename: termshark
   version: 2.4.0
   origversion: 2.4.0-r14
+  status: newest
+  summary: terminal UI for tshark, inspired by Wireshark
+  maintainers:
+    - alpine@ptrcnull.me
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: termshark
+  binname: termshark
+  visiblename: termshark
+  version: 2.4.0
+  origversion: 2.4.0-r17
   status: newest
   summary: terminal UI for tshark, inspired by Wireshark
   maintainers:
@@ -261,6 +280,20 @@
     - dawidd0811@gmail.com
   categories:
     - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: termshark
+  binnames:
+    - termshark
+  visiblename: termshark
+  version: 2.4.0
+  origversion: 2.4.0-5
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - dawidd0811@gmail.com
+  categories:
+    - misc
 - repo: exherbo
   subrepo: CleverCloud
   srcname: net-analyzer/termshark
@@ -285,6 +318,17 @@
     - zi@freebsd.org
   categories:
     - net
+- repo: nix_unstable
+  srcname: termshark
+  visiblename: termshark
+  version: 2.4.0
+  origversion: null
+  status: newest
+  summary: Terminal UI for wireshark-cli, inspired by Wireshark
+  maintainers:
+    - patrickwinter@posteo.ch
+  licenses:
+    - MIT
 - repo: gentoo
   srcname: net-analyzer/termshark
   visiblename: net-analyzer/termshark
@@ -324,22 +368,6 @@
     - dawidd0811@gmail.com
   categories:
     - misc
-- repo: rosa_13
-  subrepo: contrib/release
-  srcname: termshark
-  binnames:
-    - termshark
-  visiblename: termshark
-  version: 2.4.0
-  origversion: 2.4.0-1
-  status: newest
-  summary: A terminal UI for tshark
-  maintainers:
-    - alexander@mezon.ru
-  licenses:
-    - MIT
-  categories:
-    - Development/Other
 - repo: liguros_stable
   srcname: net-analyzer/termshark
   visiblename: net-analyzer/termshark
@@ -396,7 +424,7 @@
   binname: termshark
   visiblename: termshark
   version: 2.4.0
-  origversion: 2.4.0-2
+  origversion: 2.4.0-1
   status: newest
   summary: Terminal UI for tshark, inspired by Wireshark
   licenses:
@@ -407,7 +435,7 @@
   binname: termshark
   visiblename: termshark
   version: 2.4.0
-  origversion: 2.4.0-2
+  origversion: 2.4.0-1
   status: newest
   summary: Terminal UI for tshark, inspired by Wireshark
   licenses:
@@ -434,51 +462,7 @@
     - patrickwinter@posteo.ch
   licenses:
     - MIT
-- repo: nix_stable_24_11
-  srcname: termshark
-  visiblename: termshark
-  version: 2.4.0
-  origversion: null
-  status: newest
-  summary: Terminal UI for wireshark-cli, inspired by Wireshark
-  maintainers:
-    - patrickwinter@posteo.ch
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: termshark
-  visiblename: termshark
-  version: 2.4.0
-  origversion: null
-  status: newest
-  summary: Terminal UI for wireshark-cli, inspired by Wireshark
-  maintainers:
-    - patrickwinter@posteo.ch
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: termshark
-  visiblename: termshark
-  version: 2.4.0
-  origversion: null
-  status: newest
-  summary: Terminal UI for wireshark-cli, inspired by Wireshark
-  maintainers:
-    - patrickwinter@posteo.ch
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
-  srcname: termshark
-  visiblename: termshark
-  version: 2.4.0
-  origversion: null
-  status: newest
-  summary: Terminal UI for wireshark-cli, inspired by Wireshark
-  maintainers:
-    - patrickwinter@posteo.ch
-  licenses:
-    - MIT
-- repo: nix_unstable
   srcname: termshark
   visiblename: termshark
   version: 2.4.0
@@ -667,6 +651,22 @@
     - MIT
   categories:
     - Development/Other
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: termshark
+  binnames:
+    - termshark
+  visiblename: termshark
+  version: 2.4.0
+  origversion: 2.4.0-1
+  status: newest
+  summary: A terminal UI for tshark
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - MIT
+  categories:
+    - Development/Other
 - repo: rpmsphere
   srcname: termshark
   binnames:
@@ -723,20 +723,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: termshark
-  binnames:
-    - termshark
-  visiblename: termshark
-  version: 2.0.3
-  origversion: 2.0.3-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - dawidd0811@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_20_04
   subrepo: focal-updates/universe
   srcname: termshark
   binnames:
@@ -747,6 +733,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - dawidd0811@gmail.com
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: termshark
+  binnames:
+    - termshark
+  visiblename: termshark
+  version: 2.0.3
+  origversion: 2.0.3-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - dawidd0811@gmail.com
   categories:
     - universe/misc
