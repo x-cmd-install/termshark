@@ -1,31 +1,14 @@
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: arch
+  subrepo: extra
   srcname: termshark
-  binnames:
-    - termshark
-  visiblename: termshark
-  version: 2.2.0
-  origversion: 2.2.0-1+deb11u1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - dawidd0811@gmail.com
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: termshark
-  binnames:
-    - termshark
+  binname: termshark
   visiblename: termshark
   version: 2.4.0
-  origversion: 2.4.0-5
+  origversion: 2.4.0-2
   status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - dawidd0811@gmail.com
-  categories:
-    - misc
+  summary: Terminal UI for tshark, inspired by Wireshark
+  licenses:
+    - MIT
 - repo: alpine_3_17
   subrepo: community
   srcname: termshark
@@ -91,20 +74,6 @@
     - alpine@ptrcnull.me
   licenses:
     - MIT
-- repo: deepin_25
-  subrepo: community
-  srcname: termshark
-  binnames:
-    - termshark
-  visiblename: termshark
-  version: 2.4.0
-  origversion: 2.4.0-2
-  status: newest
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - dawidd0811@gmail.com
-  categories:
-    - misc
 - repo: alpine_3_22
   subrepo: community
   srcname: termshark
@@ -155,17 +124,6 @@
   summary: terminal UI for tshark, inspired by Wireshark
   maintainers:
     - alpine@ptrcnull.me
-  licenses:
-    - MIT
-- repo: arch
-  subrepo: extra
-  srcname: termshark
-  binname: termshark
-  visiblename: termshark
-  version: 2.4.0
-  origversion: 2.4.0-2
-  status: newest
-  summary: Terminal UI for tshark, inspired by Wireshark
   licenses:
     - MIT
 - repo: aur
@@ -261,6 +219,48 @@
     - dawidd0811@gmail.com
   categories:
     - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: termshark
+  binnames:
+    - termshark
+  visiblename: termshark
+  version: 2.4.0
+  origversion: 2.4.0-2
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - dawidd0811@gmail.com
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: termshark
+  binnames:
+    - termshark
+  visiblename: termshark
+  version: 2.2.0
+  origversion: 2.2.0-1+deb11u1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - dawidd0811@gmail.com
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: termshark
+  binnames:
+    - termshark
+  visiblename: termshark
+  version: 2.4.0
+  origversion: 2.4.0-5
+  status: newest
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - dawidd0811@gmail.com
+  categories:
+    - misc
 - repo: exherbo
   subrepo: CleverCloud
   srcname: net-analyzer/termshark
@@ -278,7 +278,7 @@
   binname: termshark
   visiblename: net/termshark
   version: 2.4.0
-  origversion: 2.4.0_44
+  origversion: 2.4.0_45
   status: newest
   summary: Terminal UI for tshark, inspired by Wireshark
   maintainers:
